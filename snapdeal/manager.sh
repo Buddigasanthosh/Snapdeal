@@ -1,17 +1,15 @@
-echo "ForLoop Demo Starts"
+a=
+b=
 
-for (( a=100; a>=1; a-- ))
-do
-echo $a
-done
-
-echo "ForLoop Demo Over"
-`expr 3 + 2`
 echo "if + read"
-read -p  "Enter $a value"
-read -p  "Enter $b value"
+read -p  "Enter $a value    : "=$a
+read -p  "Enter $b value    : "=$b
+
 if [ $a -lt $b ]
 then
-echo "$a is less than $b" 
+
+	echo "$a is less than $b" 
 else
-echo "$b less than $a "
+
+	echo "$b less than $a "
+fi
