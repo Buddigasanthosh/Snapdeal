@@ -1,4 +1,11 @@
-THis ia a managers profile shell scripting file
-echo "Im the MAnager"
-`expr 3 + 2 `
+echo "ForLoop Demo Starts"
 
+for (( a=100; a>=1; a-- ))
+do
+echo $a
+done
+
+echo "ForLoop Demo Over"
+
+
+		
