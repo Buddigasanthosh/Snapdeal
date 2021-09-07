@@ -8,8 +8,6 @@ done
 echo "ForLoop Demo Over"
 `expr 3 + 2`
 echo "if + read"
-a=789
-b=578
 read -p  "Enter $a value"
 read -p  "Enter $b value"
 if [ $a -lt $b ]
